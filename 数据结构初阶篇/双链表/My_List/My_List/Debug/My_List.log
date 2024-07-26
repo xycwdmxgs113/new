@@ -1,0 +1,10 @@
+﻿  My_List.c
+E:\vs 项目\双链表\My_List\My_List\My_List.h(4,9): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  (编译源文件“My_List.c”)
+  
+  test.c
+E:\vs 项目\双链表\My_List\My_List\My_List.h(4,9): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  (编译源文件“test.c”)
+  
+  正在生成代码...
+  My_List.vcxproj -> E:\vs 项目\双链表\My_List\Debug\My_List.exe

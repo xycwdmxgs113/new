@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB18497-EB7B-4460-BF2A-8AEA3C95D768}|Queue\\Queue.vcxproj|E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\Queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CB18497-EB7B-4460-BF2A-8AEA3C95D768}|Queue\\Queue.vcxproj|solutionrelative:Queue\\Queue.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB18497-EB7B-4460-BF2A-8AEA3C95D768}|Queue\\Queue.vcxproj|E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CB18497-EB7B-4460-BF2A-8AEA3C95D768}|Queue\\Queue.vcxproj|solutionrelative:Queue\\Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CB18497-EB7B-4460-BF2A-8AEA3C95D768}|Queue\\Queue.vcxproj|E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3CB18497-EB7B-4460-BF2A-8AEA3C95D768}|Queue\\Queue.vcxproj|solutionrelative:Queue\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 151,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Queue.h",
+              "DocumentMoniker": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\Queue.h",
+              "RelativeDocumentMoniker": "Queue\\Queue.h",
+              "ToolTip": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\Queue.h",
+              "RelativeToolTip": "Queue\\Queue.h",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-14T01:26:13.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Queue.c",
+              "DocumentMoniker": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\Queue.c",
+              "RelativeDocumentMoniker": "Queue\\Queue.c",
+              "ToolTip": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\Queue.c",
+              "RelativeToolTip": "Queue\\Queue.c",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAD4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-14T01:26:20.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "test.c",
+              "DocumentMoniker": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\test.c",
+              "RelativeDocumentMoniker": "Queue\\test.c",
+              "ToolTip": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u6808\u548C\u961F\u5217\\\u961F\u5217\\Queue\\Queue\\test.c",
+              "RelativeToolTip": "Queue\\test.c",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-14T01:26:26.726Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

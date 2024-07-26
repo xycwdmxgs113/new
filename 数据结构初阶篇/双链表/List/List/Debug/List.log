@@ -1,0 +1,5 @@
+﻿  List.c
+  test.c
+  正在生成代码...
+E:\vs 项目\双链表\List\List\List.c(128,8): warning C4553: “==”: 未使用表达式结果；是否打算使用“=”?
+  List.vcxproj -> E:\vs 项目\双链表\List\Debug\List.exe

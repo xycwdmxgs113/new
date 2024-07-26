@@ -1,0 +1,6 @@
+﻿  fuction.c
+  test.c
+  正在生成代码...
+E:\vs 项目\通讯录\Contact\tesat\fuction.c(204,19): warning C4018: “<”: 有符号/无符号不匹配
+E:\vs 项目\通讯录\Contact\tesat\fuction.c(205,20): warning C4018: “<”: 有符号/无符号不匹配
+  tesat.vcxproj -> E:\vs 项目\通讯录\Contact\Debug\tesat.exe

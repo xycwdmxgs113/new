@@ -1,0 +1,4 @@
+﻿  Test.c
+E:\vs 项目\数据结构初阶篇\二叉树(递归)\Test\Test\Test.c(51,2): warning C4013: “pinrtf”未定义；假设外部返回 int
+Test.obj : error LNK2019: 无法解析的外部符号 pinrtf，函数 PreOrder 中引用了该符号
+E:\vs 项目\数据结构初阶篇\二叉树(递归)\Test\x64\Debug\Test.exe : fatal error LNK1120: 1 个无法解析的外部命令

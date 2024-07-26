@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5999B677-E0C8-4DE1-B856-C1727AD8E735}|My_Heap\\My_Heap.vcxproj|E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5999B677-E0C8-4DE1-B856-C1727AD8E735}|My_Heap\\My_Heap.vcxproj|solutionrelative:My_Heap\\test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5999B677-E0C8-4DE1-B856-C1727AD8E735}|My_Heap\\My_Heap.vcxproj|E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\Heap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5999B677-E0C8-4DE1-B856-C1727AD8E735}|My_Heap\\My_Heap.vcxproj|solutionrelative:My_Heap\\Heap.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5999B677-E0C8-4DE1-B856-C1727AD8E735}|My_Heap\\My_Heap.vcxproj|E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\Heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5999B677-E0C8-4DE1-B856-C1727AD8E735}|My_Heap\\My_Heap.vcxproj|solutionrelative:My_Heap\\Heap.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 151,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Heap.h",
+              "DocumentMoniker": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\Heap.h",
+              "RelativeDocumentMoniker": "My_Heap\\Heap.h",
+              "ToolTip": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\Heap.h",
+              "RelativeToolTip": "My_Heap\\Heap.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-17T08:30:49.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Heap.c",
+              "DocumentMoniker": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\Heap.c",
+              "RelativeDocumentMoniker": "My_Heap\\Heap.c",
+              "ToolTip": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\Heap.c",
+              "RelativeToolTip": "My_Heap\\Heap.c",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAuwEcAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-17T08:31:01.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "test.c",
+              "DocumentMoniker": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\test.c",
+              "RelativeDocumentMoniker": "My_Heap\\test.c",
+              "ToolTip": "E:\\vs \u9879\u76EE\\\u6570\u636E\u7ED3\u6784\u521D\u9636\u7BC7\\\u4E8C\u53C9\u6811(\u5806)\\My_Heap\\My_Heap\\My_Heap\\test.c",
+              "RelativeToolTip": "My_Heap\\test.c",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAuwFMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-07-17T08:31:07.754Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
