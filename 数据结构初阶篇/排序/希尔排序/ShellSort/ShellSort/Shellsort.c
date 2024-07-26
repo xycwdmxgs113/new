@@ -60,8 +60,8 @@ void  ShellSort(int* a, int n)
 				}
 			}
 			a[end + gap] = temp;
-			printfArray(a, 11);
+			
 		}
-
+printfArray(a, 11);
 	}
 }

@@ -1,0 +1,9 @@
+﻿  Heap.c
+  test.c
+E:\vs 项目\数据结构初阶篇\排序\堆排序\HeapSort\Project1\test.c(5,8): warning C4013: “time”未定义；假设外部返回 int
+E:\vs 项目\数据结构初阶篇\排序\堆排序\HeapSort\Project1\test.c(24,15): warning C4013: “clock”未定义；假设外部返回 int
+  正在生成代码
+  Previous IPDB not found, fall back to full compilation.
+  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Project1.vcxproj -> E:\vs 项目\数据结构初阶篇\排序\堆排序\HeapSort\x64\Release\Project1.exe
