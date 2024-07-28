@@ -39,7 +39,7 @@ void TestOP()
 	int end4 = clock();
 
 	int begin5 = clock();
-	QuickSort(a5, 0, N - 1);
+	//QuickSort(a5, 0, N - 1);
 	int end5 = clock();
 
 	int begin6 = clock();
@@ -71,9 +71,9 @@ void TestOP()
 int main()
 {
 	int a[] = { 9,8,7,6,5,5,4,3,2,1,0 };
-	//PrintArray(a, sizeof(a) / sizeof(a[0]));
-	//QuickSort(a, 0,sizeof(a) / sizeof(a[0]));
-	//PrintArray(a, sizeof(a) / sizeof(a[0]));
-	TestOP();
+	PrintArray(a, sizeof(a) / sizeof(a[0]));
+	QuickSort(a, 0,sizeof(a) / sizeof(a[0])-1);
+	PrintArray(a, sizeof(a) / sizeof(a[0]));
+//	TestOP();
 	return 0;
 }

@@ -1,5 +1,5 @@
 #include"QuickSort.h"
-
+#include"stack.h"
 void PrintArray(int* a, int n)
 {
 	for (int i = 0; i < n; i++)
@@ -66,17 +66,20 @@ int QuickSort1(int* a, int left, int right)
 	Swap(&a[mid], &a[left]);
 	int key = left;
 
-	while (left < right)
+	while (left <= right)
 	{
 		//先走右，再走左  ,左找大，右找小
-		while (left < right && a[right] >= a[key])
+		while (left <= right && a[right] > a[key])
 			--right;
-		while (left < right && a[left] <= a[key])
+		while (left <= right && a[left] < a[key])
 			++left;
-		Swap(&a[left], &a[right]);
+		if (left<=right)
+		{
+			Swap(&a[left++], &a[right--]);
+		}
 	}
-	Swap(&a[key], &a[left]);
-	return left;
+	Swap(&a[key], &a[right]);
+	return right;
 }
 
 //挖坑法
@@ -134,7 +137,7 @@ void QuickSort(int* a, int left, int right)
 		InsertSort(a + left, left + right + 1);
 	}
 	else {
-		int keyi = QuickSort2(a, left, right);
+		int keyi = QuickSort1(a, left, right);
 		QuickSort(a, left, keyi - 1);
 		QuickSort(a, keyi + 1, right);
 	}
@@ -163,4 +166,33 @@ void InsertSort(int* a, int n)
 		}
 		a[end + 1] = temp;
 	}
+}
+
+//利用循环实现快速排序
+void QuickSort4(int* a, int left, int right)
+{
+	ST st;
+	STInit(&st);
+	STPush(&st, right);
+	STPush(&st, left);
+	while (!STEmpty(&st))
+	{
+		int begin = STTop(&st);
+		STPop(&st);
+		int end = STTop(&st);
+		STPop(&st);
+		int key = QuickSort3(a, begin, end);
+		
+		if (end>key+1)
+		{
+			STPush(&st, end);
+			STPush(&st, key + 1);
+		}
+		if (begin<key-1)
+		{	
+			STPush(&st, key - 1);
+			STPush(&st, begin);
+		}
+	}
+	STDestroy(&st);
 }
