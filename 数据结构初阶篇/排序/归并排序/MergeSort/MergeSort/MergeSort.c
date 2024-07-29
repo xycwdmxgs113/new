@@ -50,19 +50,28 @@ void _MergeSort1(int *a, int begin,int end, int *temp)
 
 }
 
-//循环版本有问题 待续....
-void _MergeSort2(int* a, int begin, int end, int* temp)
+//循环版本	
+void _MergeSort2(int* a,int n, int* temp)
 {
 	int gap = 1;
-	while (gap<end)
+	while (gap<n)
 	{
-		for (int i = 0; i+2 * gap-1 <= end; i+=2*gap)
+		for (int i = 0; i <n; i+=2*gap)
 		{
 			//左区间
 			int begin1 = i, end1 =i+gap-1 ;
 
 			//右区间
 			int begin2 =i+gap, end2 =i+ 2*gap-1;
+			if (end1 >= n || begin2 >= n)
+			{
+				break;
+			}
+			else if (end2>=n)
+			{
+				end2 = n - 1;
+			}
+			printf("[%d,%d] [%d ,%d]\n", begin1, end1, begin2, end2);
 
 			int j = i;
 			while (begin1 <= end1 && begin2 <= end2)
@@ -86,7 +95,7 @@ void _MergeSort2(int* a, int begin, int end, int* temp)
 			{
 				temp[j++] = a[begin2++];
 			}
-			memcpy(a + i, temp +i, sizeof(int) * (end2 - i + 1));
+			memcpy(a + i, temp + i, sizeof(int) * (end2 - i + 1));
 		}
 		gap *= 2;
 	}
@@ -97,6 +106,6 @@ void MergeSort(int* a, int n)
 	int begin = 0;
 	int end = n - 1;
 	int* temp = (int*)malloc(sizeof(int) * n);
-	_MergeSort1(a, begin,end, temp);
+	_MergeSort2(a,n,  temp);
 	free(temp);
 }
