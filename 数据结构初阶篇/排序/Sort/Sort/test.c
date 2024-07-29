@@ -72,7 +72,7 @@ int main()
 {
 	int a[] = { 9,8,7,6,5,5,4,3,2,1,0 };
 	PrintArray(a, sizeof(a) / sizeof(a[0]));
-	QuickSort(a, 0,sizeof(a) / sizeof(a[0])-1);
+	Mergesort2(a, sizeof(a) / sizeof(a[0]));
 	PrintArray(a, sizeof(a) / sizeof(a[0]));
 //	TestOP();
 	return 0;

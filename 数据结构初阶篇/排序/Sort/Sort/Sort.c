@@ -248,6 +248,7 @@ int PartSort3(int* a, int left, int right)
 	Swap(&a[keyi], &a[prev]);
 	return prev;
 }
+
 void QuickSort(int* a, int left, int right)
 {
 	if (left>=right)
@@ -294,5 +295,109 @@ void QuickSortNonR(int* a, int left, int right)
 			STPush(&st, begin);
 		}
 	}
+
+}
+
+//归并排序
+void Mergesort1(int* a, int left, int right,int *temp)
+{
+	if (left>=right)
+	{
+		return;
+	}
+	int mid = (left + right) / 2;
+	Mergesort1(a, left, mid,temp);
+	Mergesort1(a, mid+1, right,temp);
+
+	//创建左区间
+	int begin1 = left, end1 = mid;
+	//创建右区间
+	int begin2 = mid + 1, end2 = right;
+	//printf("[%d %d],[%d,%d]   ", begin1, end1, begin2, end2);
+	
+	int i =left;
+	while (begin1<=end1&&begin2<=end2)
+	{
+		if (a[begin1]<a[begin2])
+		{
+			temp[i++] = a[begin1++];
+		}
+		else
+		{
+			temp[i++] = a[begin2++];
+		}
+	}
+
+	while (begin1<=end1)
+	{
+		temp[i++] = a[begin1++];
+	}
+
+	while (begin2 <= end2)
+	{
+		temp[i++] = a[begin2++];
+	}
+
+	memcpy(a + left, temp + left, sizeof(int) * (end2 -left+1));
+}
+
+void Mergesort(int* a, int n)
+{
+	int* temp = (int*)malloc(sizeof(int) * (n));
+	Mergesort1(a, 0, n - 1, temp);
+	free(temp);
+}
+
+//循环版本
+void Mergesort2(int* a, int n)
+{
+	int gap = 1;
+	int* temp = (int*)malloc(sizeof(int) * (n));
+	int begin1, end1;
+	int begin2, end2;
+	while (gap<n)
+	{
+		for (int i = 0; i < n; i+=2*gap)
+		{
+
+			begin1 = i, end1 = i + gap-1;
+			begin2 = i + gap, end2 = i + 2 * gap - 1;
+
+			if (end1>=n||begin2>=n)
+			{
+				break;
+			}
+			else if(end2>=n)
+			{
+				end2 = n - 1;
+			}
+			int j = i;
+			while (begin1 <= end1 && begin2 <= end2)
+			{
+				if (a[begin1] < a[begin2])
+				{
+					temp[j++] = a[begin1++];
+				}
+				else
+				{
+					temp[j++] = a[begin2++];
+				}
+			}
+
+			while (begin1 <= end1)
+			{
+				temp[j++] = a[begin1++];
+			}
+
+			while (begin2 <= end2)
+			{
+				temp[j++] = a[begin2++];
+			}
+
+			memcpy(a + i, temp + i, sizeof(int) * (end2 - i + 1));
+		}
+		gap *= 2;
+	}
+
 
 }
