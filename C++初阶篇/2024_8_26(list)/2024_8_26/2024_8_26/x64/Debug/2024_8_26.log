@@ -1,0 +1,63 @@
+﻿  2024_8_26.cpp
+E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676: 二进制“-”:“const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”不定义该运算符或到预定义运算符可接收的类型的转换
+E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:         with
+E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:         [
+E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:             _Ty=int
+E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45): error C2676:         ]
+  (编译源文件“2024_8_26.cpp”)
+  E:\vs2022\VC\Tools\MSVC\14.39.33519\include\xutility(4303,30):
+  可能是“unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”
+  	E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	“unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”: 无法从“const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”推导出“const std::move_iterator<_Iter> &”的 模板 参数
+          with
+          [
+              _Ty=int
+          ]
+  E:\vs2022\VC\Tools\MSVC\14.39.33519\include\xutility(1785,5):
+  或    “unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”
+  	E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	“unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”: 无法从“const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”推导出“const std::reverse_iterator<_BidIt> &”的 模板 参数
+          with
+          [
+              _Ty=int
+          ]
+  E:\vs2022\VC\Tools\MSVC\14.39.33519\include\xutility(1785,5):
+  或    “unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”
+  	E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	“unknown-type std::operator -(const std::reverse_iterator<_BidIt> &,const std::reverse_iterator<_BidIt2> &) noexcept(<expr>)”: 无法从“const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”推导出“const std::reverse_iterator<_BidIt> &”的 模板 参数
+          with
+          [
+              _Ty=int
+          ]
+  E:\vs2022\VC\Tools\MSVC\14.39.33519\include\xutility(4303,30):
+  或    “unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”
+  	E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,38):
+  	“unknown-type std::operator -(const std::move_iterator<_Iter> &,const std::move_iterator<_Iter2> &) noexcept(<expr>)”: 无法从“const std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<_Ty>>>”推导出“const std::move_iterator<_Iter> &”的 模板 参数
+          with
+          [
+              _Ty=int
+          ]
+  E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,45):
+  模板实例化上下文(最早的实例化上下文)为
+  	E:\C++\2024_8_26(list)\2024_8_26\2024_8_26\2024_8_26.cpp(60,2):
+  	查看对正在编译的函数 模板 实例化“void std::sort<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>>(const _RanIt,const _RanIt)”的引用
+          with
+          [
+              _Ty=int,
+              _RanIt=std::_List_iterator<std::_List_val<std::_List_simple_types<int>>>
+          ]
+  	E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7991,10):
+  	查看对正在编译的函数 模板 实例化“void std::sort<_RanIt,std::less<void>>(const _RanIt,const _RanIt,_Pr)”的引用
+          with
+          [
+              _RanIt=std::_List_iterator<std::_List_val<std::_List_simple_types<int>>>,
+              _Pr=std::less<void>
+          ]
+  
+E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,5): error C2672: “_Sort_unchecked”: 未找到匹配的重载函数
+  (编译源文件“2024_8_26.cpp”)
+  E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7952,19):
+  可能是“void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)”
+  	E:\vs2022\VC\Tools\MSVC\14.39.33519\include\algorithm(7986,5):
+  	“void std::_Sort_unchecked(_RanIt,_RanIt,iterator_traits<_Iter>::difference_type,_Pr)”: 应输入 4 个参数，却提供了 3 个
+  
