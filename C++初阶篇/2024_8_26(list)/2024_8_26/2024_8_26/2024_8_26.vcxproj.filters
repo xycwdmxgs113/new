@@ -23,5 +23,8 @@
     <ClInclude Include="2024_8_26.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="reverse_iterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

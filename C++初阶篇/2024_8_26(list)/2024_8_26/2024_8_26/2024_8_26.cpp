@@ -193,9 +193,27 @@ void test05()
 
 }
 
+void test06()
+{
+	list<int> lt;
+	lt.push_back(1);
+	lt.push_back(2);
+	lt.push_back(3);
+	lt.push_back(4);
+
+	list<int>::reverse_iterator it = lt.rbegin();
+	while (it != lt.rend())
+	{
+		cout << *it << " ";
+		++it;
+	}
+
+
+}
+
 int main()
 {
-	test03();
+	test06();
 
 
 

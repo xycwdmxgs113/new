@@ -2,7 +2,7 @@
 #include<iostream>
 #include<stdbool.h>
 #include<assert.h>
-
+#include"reverse_iterator.h"
 
 namespace mabo
 {
@@ -20,11 +20,14 @@ namespace mabo
 		list_node* _prev;
 	};
 
+
 	template<class T, class Ref,class Por>
 	struct _list_iterator
 	{
 		typedef list_node<T> Node;
 		typedef _list_iterator<T,Ref,Por> self;
+
+
 		_list_iterator(Node*node)
 			:_node(node)
 		{}
@@ -87,6 +90,8 @@ namespace mabo
 		typedef _list_iterator<T,T&,T*> iterator;
 		typedef _list_iterator<T,const T&,const T*> const_iterator;
 
+		typedef Reverse_iterator<iterator,T&, T*> reverse_iterator;
+
 		void emptyInit()
 		{
 			_head = new Node(T());
@@ -138,6 +143,15 @@ namespace mabo
 			insert(begin(), val);
 		}
 
+		reverse_iterator rbegin()
+		{
+			return end();
+		}
+
+		reverse_iterator rend()
+		{
+			return begin();
+		}
 
 		iterator begin()
 		{

@@ -1,2 +1,28 @@
 ﻿  2024_8_26.cpp
-  2024_8_26.vcxproj -> E:\C++\2024_8_26(list)\2024_8_26\Debug\2024_8_26.exe
+E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\reverse_iterator.h(28,11): error C2440: “return”: 无法从“mabo::_list_iterator<T,T &,T *>”转换为“mabo::Reverse_iterator<mabo::_list_iterator<T,T &,T *>,T &,T *> &”
+E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\reverse_iterator.h(28,11): error C2440:         with
+E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\reverse_iterator.h(28,11): error C2440:         [
+E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\reverse_iterator.h(28,11): error C2440:             T=int
+E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\reverse_iterator.h(28,11): error C2440:         ]
+  (编译源文件“2024_8_26.cpp”)
+  E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\reverse_iterator.h(28,11):
+  模板实例化上下文(最早的实例化上下文)为
+  	E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\2024_8_26.cpp(204,30):
+  	查看对正在编译的 类 模板 实例化“mabo::Reverse_iterator<mabo::_list_iterator<T,T &,T *>,T &,T *>”的引用
+          with
+          [
+              T=int
+          ]
+  	E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\reverse_iterator.h(26,9):
+  	在编译 类 模板 成员函数“mabo::Reverse_iterator<mabo::_list_iterator<T,T &,T *>,T &,T *> &mabo::Reverse_iterator<mabo::_list_iterator<T,T &,T *>,T &,T *>::operator ++(void)”时
+          with
+          [
+              T=int
+          ]
+  		E:\Github\C++初阶篇\2024_8_26(list)\2024_8_26\2024_8_26\2024_8_26.cpp(208,3):
+  		请参阅 "test06" 中对 "mabo::Reverse_iterator<mabo::_list_iterator<T,T &,T *>,T &,T *>::operator ++" 的第一个引用
+          with
+          [
+              T=int
+          ]
+  
