@@ -1,0 +1,6 @@
+﻿  SearchBinaryTree.cpp
+E:\C++\C++进阶\2024_9_28(二叉搜索树)\2024_10_1\2024_10_1\SearchBinaryTree.h(244,1): warning C4715: “key::SBT<int>::_InserR”: 不是所有的控件路径都返回值
+E:\C++\C++进阶\2024_9_28(二叉搜索树)\2024_10_1\2024_10_1\SearchBinaryTree.h(288,1): warning C4715: “key::SBT<int>::_EraseR”: 不是所有的控件路径都返回值
+E:\C++\C++进阶\2024_9_28(二叉搜索树)\2024_10_1\2024_10_1\SearchBinaryTree.h(439,1): warning C4715: “key_val::SBT<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::_InserR”: 不是所有的控件路径都返回值
+E:\C++\C++进阶\2024_9_28(二叉搜索树)\2024_10_1\2024_10_1\SearchBinaryTree.h(417,1): warning C4715: “key_val::SBT<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::_FindR”: 不是所有的控件路径都返回值
+  2024_10_1.vcxproj -> E:\C++\C++进阶\2024_9_28(二叉搜索树)\2024_10_1\Debug\2024_10_1.exe
